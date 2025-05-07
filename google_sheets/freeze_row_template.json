@@ -1,0 +1,11 @@
+{
+    "updateSheetProperties": {
+        "properties": {
+            "sheetId": "$SheetId",
+            "gridProperties": {
+                "frozenRowCount": $NumFrozenRows
+            }
+        },
+        "fields": "gridProperties.frozenRowCount"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "mergeCells": {
+        "mergeType": "MERGE_ALL",
+        "range": {
+            "sheetId": "$SheetId",
+            "startRowIndex": $StartRowIndex,
+            "endRowIndex": $EndRowIndex,
+            "startColumnIndex": $StartColIndex,
+            "endColumnIndex": $EndColIndex
+        }
+    }
+}

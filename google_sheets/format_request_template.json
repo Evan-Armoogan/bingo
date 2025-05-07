@@ -1,0 +1,41 @@
+{
+    "updateCells": {
+        "range": {
+            "sheetId": "$SheetId",
+            "startRowIndex": $StartRowIndex,
+            "endRowIndex": $EndRowIndex,
+            "startColumnIndex": $StartColIndex,
+            "endColumnIndex": $EndColIndex
+        },
+        "rows": [
+            {
+                "values": [
+                    {
+                        "userEnteredFormat": {
+                            "backgroundColor": {
+                                "red": $BackgroundRed,
+                                "green": $BackgroundGreen,
+                                "blue": $BackgroundBlue,
+                                "alpha": $BackgroundAlpha
+                            },
+                            "horizontalAlignment": "$TextAlignment",
+                            "textFormat": {
+                                "foregroundColor": {
+                                    "red": $TextRed,
+                                    "green": $TextGreen,
+                                    "blue": $TextBlue,
+                                    "alpha": $TextAlpha
+                                },
+                                "fontSize": $FontSize,
+                                "bold": $TextBold,
+                                "italic": $TextItalic,
+                                "strikethrough": $Strikethrough
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "fields": "userEnteredFormat(backgroundColor,textFormat,horizontalAlignment)"
+    }
+}

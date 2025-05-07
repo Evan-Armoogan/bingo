@@ -1,0 +1,11 @@
+{
+    "pasteData": {
+        "data": "$CsvData",
+        "type": "PASTE_NORMAL",
+        "delimiter": ",",
+        "coordinate": {
+            "sheetId": "$SheetId",
+            "rowIndex": $RowIndex
+        }
+    }
+}

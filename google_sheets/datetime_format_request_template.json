@@ -1,0 +1,26 @@
+{
+    "updateCells": {
+        "range": {
+            "sheetId": "$SheetId",
+            "startRowIndex": $StartRowIndex,
+            "endRowIndex": $EndRowIndex,
+            "startColumnIndex": $StartColIndex,
+            "endColumnIndex": $EndColIndex
+        },
+        "rows": [
+            {
+                "values": [
+                    {
+                        "userEnteredFormat": {
+                            "numberFormat": {
+                                "type": "DATE_TIME",
+                                "pattern": "$DateTimePattern"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "fields": "userEnteredFormat.numberFormat"
+    }
+}

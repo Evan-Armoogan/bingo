@@ -1,0 +1,27 @@
+{
+    "updateCells": {
+        "range": {
+            "sheetId": "$SheetId",
+            "startRowIndex": $StartRowIndex,
+            "endRowIndex": $EndRowIndex,
+            "startColumnIndex": $StartColIndex,
+            "endColumnIndex": $EndColIndex
+        },
+        "rows": [
+            {
+                "values": [
+                    {
+                        "dataValidation": {
+                            "condition": {
+                                "type": "BOOLEAN"
+                            },
+                            "strict": true,
+                            "showCustomUi": true
+                        }
+                    }
+                ]
+            }
+        ],
+        "fields": "dataValidation"
+    }
+}
